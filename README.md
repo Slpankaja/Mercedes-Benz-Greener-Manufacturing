@@ -6,10 +6,10 @@ Since the first automobile, the Benz Patent Motor Car in 1886, Mercedes-Benz has
 
 You are required to reduce the time that cars spend on the test bench. Others will work with a dataset representing different permutations of features in a Mercedes-Benz car to predict the time it takes to pass testing. Optimal algorithms will contribute to faster testing, resulting in lower carbon dioxide emissions without reducing Mercedes-Benz’s standards.
 
-I will Take below approach for Problem Statement
+Take below approach for Problem Statement
 
-If for any column(s), the variance is equal to zero, then you need to remove those variable(s).
-Check for null and unique values for test and train sets.
-Apply label encoder for non-numerical categorical variables.
-Use Boruta for dimensionality reduction since PCA is not suitable on binary and categorical variable.
-Use XGBoost for final modeling.
+1) If for any column(s), the variance is equal to zero, then you need to remove those variable(s).
+2) Check for null and unique values for test and train sets.
+3) Apply label encoder for non-numerical categorical variables.
+4) Use Boruta for dimensionality reduction since PCA is not suitable on binary and categorical variable.
+5) Use XGBoost for final modeling.
